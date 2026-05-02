@@ -1,0 +1,29 @@
+# Jupyter Notebook
+**/.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.env
+.env.*
+.venv/
+venv/
+env/
+
+# Project Outputs (Generated Files)
+**/data/*_cleaned.csv
+**/data/*_processed.csv
+**/data/*_featured.csv
+**/data/*_final.csv
+**/data/filtered_output.csv
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Optional (Professional Touch)
+.pytest_cache/
+.mypy_cache/
